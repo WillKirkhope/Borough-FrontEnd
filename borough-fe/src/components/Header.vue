@@ -1,6 +1,5 @@
 <template>
   <header class="header">
-    <img id="logo-img" src="../assets/group-project-logo.png" alt="placeholder">
     <h1 class = "header-title">Open Village</h1>
     <nav class="nav-links">
       <router-link to="/">Home</router-link>
@@ -27,9 +26,9 @@
     align-items: center;
     width: 100%;
     padding: 0 10vw;
-    background-color: #F17105;
+    background-color: #2C4251;
     padding-top:5px;
-    color: rgb(5,89,135);
+    color: #C1C1C1;
   }
   .nav-links a {
     padding: .5vw;

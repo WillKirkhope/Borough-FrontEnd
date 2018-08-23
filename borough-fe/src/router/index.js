@@ -37,4 +37,4 @@ export default new Router({
       component: PageNotFound
     }
   ]
-}
+});
