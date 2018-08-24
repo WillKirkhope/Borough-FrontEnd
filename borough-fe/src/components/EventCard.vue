@@ -1,12 +1,19 @@
 <template>
-  <div class="Event-card">
-  <h1>Organizer: {{this.myEvents[0].organizer}}</h1>
-  <h2>Event Name: {{this.myEvents[0].name}}</h2>
-  <h3>Event Latitude: {{this.myEvents[0].lat}}</h3>
-  <h3>Event Longitude: {{this.myEvents[0].long}}</h3>
-  <p>Description: {{this.myEvents[0].description}}</p>
-  <button @click="this.deleteEvent" id="delete" type="button" name="button">Delete</button>
-  </div>
+  <div class="event-listitem">
+  <b-card title=""
+          img-src="https://placeimg.com/400/200/nature?t=1535076287388"
+          img-alt="Image"
+          img-top
+          tag="article"
+          style="width: 50vw;"
+          class="mb-2">
+    <h3>Event Name: {{this.myEvents[0].name}}</h3>
+    <h3>Event Latitude: {{this.myEvents[0].lat}}</h3>
+    <h3>Event Longitude: {{this.myEvents[0].long}}</h3>
+    <p>Description: {{this.myEvents[0].description}}</p>
+    <b-button variant="primary" @click="this.deleteEvent" id="delete" type="button" name="button">Delete</b-button>
+  </b-card>
+</div>
 </template>
 
 <script>
@@ -28,7 +35,7 @@ export default {
 </script>
 
 <style>
-.Event-card {
+/* .Event-card {
   display: flex;
   flex-direction: column;
   background-color:rgb(232, 245, 252);
@@ -42,17 +49,27 @@ export default {
   margin-top: 10vw;
   margin-bottom: 1vw;
   padding: .5vw .5vw; */
-  border-radius: .25vw;
+  /* border-radius: .25vw;
   border: 1px solid black;
   box-shadow: .06vw .06vw .06vw 0vw rgba(0,0,0,0.75);
-}
-p {
+} */
+/* p {
   font-size: 1.5vw;
+} */
+
+.event-listitem {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2vw;
+  margin-bottom: 1vw;
 }
 #delete {
-  margin-left: 13vw;
-  font-size: 0.8vw;
-  width: 4vw;
+  font-size: 1vw;
+  height: 3vw;
+  width: 5vw;
   height: auto;
 }
 </style>

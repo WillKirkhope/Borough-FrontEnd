@@ -27,6 +27,11 @@ export default {
   align-items:center;
   flex-direction: column;
 }
+
+.event h1 {
+  margin-left: 2.5vw;
+}
+
 .list {
   flex-direction: row;
   flex-wrap: nowrap;

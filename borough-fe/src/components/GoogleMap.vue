@@ -1,13 +1,10 @@
 <template>
   <div>
-    <div>
-      <br/>
-    </div>
     <br>
     <gmap-map
       :center="center"
       :zoom="9"
-      style="width:50vw;  height: 44vw;"
+      style="width: 50vw;  height: 44vw;"
     >
       <gmap-marker
         :key="index"
@@ -16,6 +13,7 @@
         @click="center=m.position"
       ></gmap-marker>
     </gmap-map>
+    <br>
   </div>
 </template>
 

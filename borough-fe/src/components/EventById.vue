@@ -42,6 +42,6 @@ export default {
 <style>
 .eventPage {
   background-color: rgb(228, 230, 234);
-  padding: 6vw;
+  padding: 2vw 6vw 1vw 6vw;
 }
 </style>

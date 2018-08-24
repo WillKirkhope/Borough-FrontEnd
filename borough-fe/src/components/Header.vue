@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <h1 class = "header-title">Borough</h1>
+    <h1 class = "header-title">The Borough</h1>
     <nav class="nav-links">
       <router-link to="/">Home</router-link>
       <router-link to="/about">About</router-link>

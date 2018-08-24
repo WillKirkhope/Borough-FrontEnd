@@ -44,6 +44,7 @@ export default {
   justify-content: space-around;
   align-items:center;
   background-color: rgb(228, 230, 234);
+
 }
 
 

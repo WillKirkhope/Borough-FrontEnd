@@ -77,6 +77,9 @@ textarea {
   background-color: rgb(228, 230, 234);
 }
 #submit-button {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: .5vw;
   padding: 1vw;
   width: 20vw;
 }
