@@ -7,7 +7,7 @@
     <gmap-map
       :center="center"
       :zoom="9"
-      style="width:38vw;  height: 38vw;"
+      style="width:50vw;  height: 44vw;"
     >
       <gmap-marker
         :key="index"

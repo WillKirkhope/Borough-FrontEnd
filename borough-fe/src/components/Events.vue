@@ -25,17 +25,19 @@ export default {
 .event {
   display:flex;
   align-items:center;
-  flex-direction:column;
+  flex-direction: column;
 }
 .list {
+  flex-direction: row;
+  flex-wrap: nowrap;
   width: 40vw;
   list-style-type: none;
   height: 30vw;
   overflow: scroll;
 }
 #create-button {
-  background-color:rgb(255, 177, 153);
-  color: black;
+  background-color: #007bff;
+  color: #fff;
   text-align: center;
   text-decoration: none;
   font-size: 1vw;
@@ -44,8 +46,6 @@ export default {
   margin-left: 2.5vw;
   padding: .5vw .5vw;
   cursor: pointer;
-  border-radius: .25vw;
-  border: 1px solid black;
-  box-shadow: .25vw .25vw .125vw 0vw rgba(0,0,0,0.75);
+  border-radius: .5vw;
 }
 </style>

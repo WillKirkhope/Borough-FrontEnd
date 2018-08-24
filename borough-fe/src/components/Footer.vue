@@ -23,4 +23,9 @@
     width: 100%;
     color: rgb(5,89,135);
   }
+
+  small{
+    color: #C1C1C1;
+  }
+
 </style>

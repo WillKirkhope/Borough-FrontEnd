@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <h1 class = "header-title">Open Village</h1>
+    <h1 class = "header-title">Borough</h1>
     <nav class="nav-links">
       <router-link to="/">Home</router-link>
       <router-link to="/about">About</router-link>
@@ -32,8 +32,9 @@
   }
   .nav-links a {
     padding: .5vw;
-    color: rgb(5,89,135);
+    color: #C1C1C1;
     text-decoration:none;
+
   }
   #logo-img {
     height: 8vw;

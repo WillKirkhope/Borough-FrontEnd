@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id='app'>
     <div class="main-comp">
       <GoogleMap v-if='this.events' v-bind:myEvents="events"/>
       <Events v-bind:myEvents="events" />
@@ -45,4 +45,6 @@ export default {
   align-items:center;
   background-color: rgb(228, 230, 234);
 }
+
+
 </style>

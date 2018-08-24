@@ -1,8 +1,10 @@
 <template>
   <li class="event-listitem">
   <div>
-  <b-card title="Card Title"
-          img-src="https://picsum.photos/600/300/?image=25"
+    <b-card-group deck
+                  class="mb-3">
+  <b-card title=""
+          img-src="https://placeimg.com/400/200/nature?t=1535076287388"
           img-alt="Image"
           img-top
           tag="article"
@@ -14,6 +16,7 @@
     </p>
     <b-button variant="primary" id = "create-button" :to="`/events/${event.id}`">Details</b-button>
   </b-card>
+  </b-card-group>
 </div>
   </li>
 </template>
@@ -52,9 +55,12 @@ p {
 }
 .event-listitem {
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 0 2vw;
+  margin-bottom: 1vw;
 }
 /* .moreButton {
   display: flex;
