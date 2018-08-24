@@ -1,11 +1,11 @@
 <template>
   <div class="event-listitem">
   <b-card title=""
-          img-src="https://picsum.photos/600/300/?image=25"
+          img-src="https://placeimg.com/400/200/nature?t=1535076287388"
           img-alt="Image"
           img-top
           tag="article"
-          style="width: 50vw;"
+          style="max-width: 50vw;"
           class="mb-2">
     <h3>Event Name: {{this.myEvents[0].name}}</h3>
     <h3>Event Latitude: {{this.myEvents[0].lat}}</h3>

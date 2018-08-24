@@ -10,7 +10,7 @@
                 img-alt="Image"
                 img-top
                 tag="article"
-                style="width: 50vw;"
+                style="max-width: 50vw;"
                 class="mb-2">
           <h3>Will Kirkhope</h3>
           <h3>Lead Developer</h3>
