@@ -8,7 +8,7 @@
           img-alt="Image"
           img-top
           tag="article"
-          style="max-width: 20rem;"
+          style="width: 20rem;"
           class="mb-2">
     <h2>{{event.name}}</h2>
     <b-button variant="primary" id = "create-button" :to="`/events/${event.id}`">Details</b-button>

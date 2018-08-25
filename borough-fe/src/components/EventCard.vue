@@ -5,7 +5,7 @@
           img-alt="Image"
           img-top
           tag="article"
-          style="max-width: 50vw;"
+          style="width: 50rem;"
           class="mb-2">
     <h3>Event Name: {{this.myEvents[0].name}}</h3>
     <h3>Event Latitude: {{this.myEvents[0].lat}}</h3>
