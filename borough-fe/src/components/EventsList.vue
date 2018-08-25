@@ -1,8 +1,7 @@
 <template>
   <li class="event-listitem">
   <div>
-    <b-card-group deck
-                  class="mb-3">
+
   <b-card title=""
           img-src="https://placeimg.com/400/200/nature?t=1535076287388"
           img-alt="Image"
@@ -13,7 +12,7 @@
     <h2>{{event.name}}</h2>
     <b-button variant="primary" id = "create-button" :to="`/events/${event.id}`">Details</b-button>
   </b-card>
-  </b-card-group>
+
 </div>
   </li>
 </template>

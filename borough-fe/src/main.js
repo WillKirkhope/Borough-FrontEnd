@@ -4,11 +4,14 @@ import Vue from 'vue'
 import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+import bCard from 'bootstrap-vue/es/components/card/card';
 import App from './App'
 import router from './router'
 import * as VueGoogleMaps from "vue2-google-maps";
 
 Vue.use(BootstrapVue);
+Vue.component('b-card', bCard);
+
 
 Vue.use(VueGoogleMaps, {
   load: {
