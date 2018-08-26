@@ -33,7 +33,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .event-listitem {
   display: flex;
   flex-direction: row;
