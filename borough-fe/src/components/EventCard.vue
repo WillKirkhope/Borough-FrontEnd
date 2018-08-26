@@ -49,4 +49,10 @@ export default {
   width: 5vw;
   height: auto;
 }
+img {
+  height: auto !important;
+  width: 100% !important;
+  margin-left: 0px !important;
+  padding-right: 0px !important;
+}
 </style>

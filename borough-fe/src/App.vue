@@ -29,10 +29,4 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
-img {
-  height: auto !important;
-  width: 100% !important;
-  margin-left: 0px !important;
-  padding-right: 0px !important;
-}
 </style>

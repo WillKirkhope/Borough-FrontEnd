@@ -43,4 +43,10 @@ p {
   padding: 0 2vw;
   margin-bottom: 1vw;
 }
+img {
+  height: auto !important;
+  width: 100% !important;
+  margin-left: 0px !important;
+  padding-right: 0px !important;
+}
 </style>
