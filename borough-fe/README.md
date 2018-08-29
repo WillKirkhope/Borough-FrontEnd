@@ -1,21 +1,24 @@
-# borough-fe
+## The Borough ##
 
-> A Vue.js project
+- The Borough is a meet up app intended to help people research community Service events in their local area.
+- We have the modern solution to the problem of getting community service events started and staffed! Every community needs help, services that need to be done. Trash pick up, help the elderly, general community service, but getting groups together and a better interface for people to connect on these projects is a tall task.
 
-## Build Setup
+- The App will help by linking community members into groups to assign tasks and create a network to facilitate completion of these task in a quick and clean manner.
 
-``` bash
-# install dependencies
-npm install
+- Members can link up, see events, sign up for events, and connect with other members to get these tasks started. Our app acts as an interface to get a group of people together for said Community Service events.
 
-# serve with hot reload at localhost:8080
-npm run dev
+- If you are checking out our code, you will need to run an npm install for dependencies.
+- Frontend was built with Vue, Bootstrap for Vue, Firebase, and Google Maps.
 
-# build for production with minification
-npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+## Deployed Front-End Link ##
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+- https://the-borough.firebaseapp.com/#/
+
+## Deployed Back-End Link ##
+
+- https://openvillage.herokuapp.com/events
+
+## Back-End GitHub Repo ##
+
+- https://github.com/WillKirkhope/Borough-Backend/tree/master/Borough-backend

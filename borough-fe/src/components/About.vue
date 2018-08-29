@@ -25,27 +25,8 @@
 
 
 <script>
-import Members from "./Members"
 export default {
-  name: 'About',
-  components: {
-    Members
-  },
-  data(){
-    return {
-      members: []
-    }
-  },
-  methods: {
-  getMembers() {
-    fetch("https://openvillage.herokuapp.com/neighbors")
-    .then(response => response.json())
-    .then(myData => this.members = (myData.event))
-    }
-  },
-  mounted(){
-    this.getMembers()
-  }
+  name: 'About'
 }
 </script>
 
